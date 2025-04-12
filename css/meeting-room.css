@@ -1,0 +1,23 @@
+.time-labels > span{
+    text-align: left;
+    width:40px;
+    display:inline-flex;
+}
+.time-slots{
+    display: flex;
+    grid-auto-flow: column;
+}
+.slot {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+.occupied {
+    background-color: red;
+}
+.empty {
+    background-color: green;
+}

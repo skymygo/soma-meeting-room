@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "소마 회의실 시간표",
+  "version": "1.0",
+  "icons": {
+    "128": "somi.png"
+  },
+  "description": "회의실 예약가능 시간을 보여줍니다다.",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://swmaestro.org/*",
+    "https://www.swmaestro.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.swmaestro.org/sw/mypage/officeMng/list.do*", "https://swmaestro.org/sw/mypage/officeMng/list.do*"],
+      "js": ["src/meeting-room.js"],
+      "css": ["css/meeting-room.css"]
+    }
+  ]
+}
