@@ -6,7 +6,7 @@
 
 1. **저장소 클론**
     ```bash
-    git clone https://github.com/your-repo/soma-meeting-room.git
+    git clone https://github.com/skymygo/soma-meeting-room
     cd soma-meeting-room
     ```
 
