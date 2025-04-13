@@ -32,7 +32,3 @@
     git push origin feature/your-feature-name
     ```
 5. Pull Request를 생성합니다.
-
-## 라이선스
-
-이 프로젝트는 [MIT 라이선스](LICENSE)를 따릅니다.
