@@ -15,7 +15,7 @@ function createTimeLabels(){
 }
 
 function getTimeData(rentId, rentDate){
-    const targetUrl = `https://www.swmaestro.org/sw/mypage/officeMng/rentTime.do?viewType=CONTBODY&itemId=${rentId}&rentDt=${rentDate}`
+    const targetUrl = `/sw/mypage/officeMng/rentTime.do?viewType=CONTBODY&itemId=${rentId}&rentDt=${rentDate}`
 
     return fetch(targetUrl)
         .then(response => {
